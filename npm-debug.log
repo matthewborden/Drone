@@ -1,0 +1,623 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'face-detect' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json C:\Users\300068\Documents\GitHub\Drone\package.json
+6 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\ar-drone\package.json
+7 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\ffmpeg\package.json
+8 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\jsfeat\package.json
+9 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\navDataInt\package.json
+10 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\node-opencv\package.json
+11 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\ptamjs\package.json
+12 verbose read json C:\Users\300068\Documents\GitHub\Drone\package.json
+13 verbose cache add [ 'face-detect', null ]
+14 verbose cache add name=undefined spec="face-detect" args=["face-detect",null]
+15 verbose parsed url { pathname: 'face-detect',
+15 verbose parsed url   path: 'face-detect',
+15 verbose parsed url   href: 'face-detect' }
+16 silly lockFile 9d9e5207-face-detect face-detect
+17 verbose lock face-detect C:\Users\300068\AppData\Roaming\npm-cache\9d9e5207-face-detect.lock
+18 silly lockFile 9d9e5207-face-detect face-detect
+19 silly lockFile 9d9e5207-face-detect face-detect
+20 verbose addNamed [ 'face-detect', '' ]
+21 verbose addNamed [ null, '' ]
+22 silly lockFile f51b05e9-face-detect face-detect@
+23 verbose lock face-detect@ C:\Users\300068\AppData\Roaming\npm-cache\f51b05e9-face-detect.lock
+24 silly addNameRange { name: 'face-detect', range: '', hasData: false }
+25 verbose url raw face-detect
+26 verbose url resolving [ 'https://registry.npmjs.org/', './face-detect' ]
+27 verbose url resolved https://registry.npmjs.org/face-detect
+28 info trying registry request attempt 1 at 13:59:07
+29 http GET https://registry.npmjs.org/face-detect
+30 http 200 https://registry.npmjs.org/face-detect
+31 silly registry.get cb [ 200,
+31 silly registry.get   { vary: 'Accept',
+31 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+31 silly registry.get     etag: '"AITFBL08JKMHI2LVOQV6D2O0F"',
+31 silly registry.get     date: 'Tue, 02 Apr 2013 02:59:13 GMT',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'content-length': '1278' } ]
+32 silly addNameRange number 2 { name: 'face-detect', range: '', hasData: true }
+33 silly addNameRange versions [ 'face-detect', [ '0.0.1' ] ]
+34 verbose addNamed [ 'face-detect', '0.0.1' ]
+35 verbose addNamed [ '0.0.1', '0.0.1' ]
+36 silly lockFile 62fcb60c-face-detect-0-0-1 face-detect@0.0.1
+37 verbose lock face-detect@0.0.1 C:\Users\300068\AppData\Roaming\npm-cache\62fcb60c-face-detect-0-0-1.lock
+38 silly lockFile 708e2a44-ace-detect-face-detect-0-0-1-tgz https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz
+39 verbose lock https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz C:\Users\300068\AppData\Roaming\npm-cache\708e2a44-ace-detect-face-detect-0-0-1-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz',
+40 verbose addRemoteTarball   'aaeeb2c7431db4c234efcfc0f8ba66b38556c46d' ]
+41 info retry fetch attempt 1 at 13:59:11
+42 verbose fetch to= C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz
+43 http GET https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz
+44 http 200 https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz
+45 silly shasum updated bytes 40960
+46 silly shasum updated bytes 15099
+47 info shasum aaeeb2c7431db4c234efcfc0f8ba66b38556c46d
+47 info shasum C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz
+48 verbose tar unpack C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz
+49 silly lockFile e0dda0ba-51239-0-6769084080588073-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+50 verbose lock C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package C:\Users\300068\AppData\Roaming\npm-cache\e0dda0ba-51239-0-6769084080588073-package.lock
+51 silly lockFile c9345871-51239-0-6769084080588073-tmp-tgz C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz
+52 verbose lock C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz C:\Users\300068\AppData\Roaming\npm-cache\c9345871-51239-0-6769084080588073-tmp-tgz.lock
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm extractEntry README.md
+56 silly gunzTarPerm extractEntry lib/cascade.js
+57 silly gunzTarPerm extractEntry lib/ccv.js
+58 verbose read json C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package\package.json
+59 silly lockFile e0dda0ba-51239-0-6769084080588073-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+60 silly lockFile e0dda0ba-51239-0-6769084080588073-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+61 silly lockFile c9345871-51239-0-6769084080588073-tmp-tgz C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz
+62 silly lockFile c9345871-51239-0-6769084080588073-tmp-tgz C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\tmp.tgz
+63 verbose from cache C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package\package.json
+64 verbose tar pack [ 'C:\\Users\\300068\\AppData\\Roaming\\npm-cache\\face-detect\\0.0.1\\package.tgz',
+64 verbose tar pack   'C:\\Users\\300068\\AppData\\Local\\Temp\\npm-1936\\1364871551239-0.6769084080588073\\package' ]
+65 verbose tarball C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+66 verbose folder C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+67 silly lockFile e0dda0ba-51239-0-6769084080588073-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+68 verbose lock C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package C:\Users\300068\AppData\Roaming\npm-cache\e0dda0ba-51239-0-6769084080588073-package.lock
+69 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+70 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz C:\Users\300068\AppData\Roaming\npm-cache\70e87f5b-he-face-detect-0-0-1-package-tgz.lock
+71 silly lockFile e0dda0ba-51239-0-6769084080588073-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+72 silly lockFile e0dda0ba-51239-0-6769084080588073-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871551239-0.6769084080588073\package
+73 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+74 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+75 silly lockFile 8556eb7c--cache-face-detect-0-0-1-package C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package
+76 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package C:\Users\300068\AppData\Roaming\npm-cache\8556eb7c--cache-face-detect-0-0-1-package.lock
+77 silly lockFile 8556eb7c--cache-face-detect-0-0-1-package C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package
+78 silly lockFile 8556eb7c--cache-face-detect-0-0-1-package C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package
+79 verbose tar unpack C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+80 silly lockFile 8556eb7c--cache-face-detect-0-0-1-package C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package
+81 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package C:\Users\300068\AppData\Roaming\npm-cache\8556eb7c--cache-face-detect-0-0-1-package.lock
+82 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+83 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz C:\Users\300068\AppData\Roaming\npm-cache\70e87f5b-he-face-detect-0-0-1-package-tgz.lock
+84 silly gunzTarPerm modes [ '755', '644' ]
+85 silly gunzTarPerm extractEntry package.json
+86 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+89 silly gunzTarPerm extractEntry lib/cascade.js
+90 silly gunzTarPerm modified mode [ 'lib/cascade.js', 438, 420 ]
+91 silly gunzTarPerm extractEntry lib/ccv.js
+92 silly gunzTarPerm modified mode [ 'lib/ccv.js', 438, 420 ]
+93 verbose read json C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package\package.json
+94 silly lockFile 8556eb7c--cache-face-detect-0-0-1-package C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package
+95 silly lockFile 8556eb7c--cache-face-detect-0-0-1-package C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package
+96 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+97 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+98 silly shasum updated bytes 40960
+99 silly shasum updated bytes 15038
+100 info shasum c57c68c495939ff8d8e3168551163cbe8d79d257
+100 info shasum C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+101 verbose from cache C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package\package.json
+102 verbose chmod C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz 644
+103 silly chown skipping for windows C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+104 silly lockFile 708e2a44-ace-detect-face-detect-0-0-1-tgz https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz
+105 silly lockFile 708e2a44-ace-detect-face-detect-0-0-1-tgz https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz
+106 silly lockFile 62fcb60c-face-detect-0-0-1 face-detect@0.0.1
+107 silly lockFile 62fcb60c-face-detect-0-0-1 face-detect@0.0.1
+108 silly lockFile f51b05e9-face-detect face-detect@
+109 silly lockFile f51b05e9-face-detect face-detect@
+110 silly resolved [ { name: 'face-detect',
+110 silly resolved     main: 'lib/ccv.js',
+110 silly resolved     version: '0.0.1',
+110 silly resolved     author: { name: 'Owen Smith', email: 'owen@orls.co.uk' },
+110 silly resolved     contributors: [ [Object] ],
+110 silly resolved     description: 'A pure-JS facial detection library',
+110 silly resolved     keywords: [ 'face detection', 'face', 'ccv', 'vision' ],
+110 silly resolved     repository: { url: 'https://orls@github.com/orls/ccv-purejs.git' },
+110 silly resolved     dependencies: { canvas: '>=0.5.4' },
+110 silly resolved     engines: { node: '>=0.4.0' },
+110 silly resolved     readme: '#Face detection js\n\nA fork of the [pure-javascript face detection](https://github.com/liuliu/ccv/tree/current/js) in [Liu Liu\'s CCV library](https://github.com/liuliu/ccv) (in branch \'current\'), converted for Node and npm.\n\n# Usage\n\nThis package provides the method `detect_objects`, to which you pass a parameters hash. The most important parameter is the canvas obj, into which you should have already loaded an image.\n\nThis method returns an array of hashes, each representing a face, with the following fields:\n\n* `x`, `y` : the coordinates of the top-left corner of the face\'s bounding box\n* `width`, `height` : the pixel dimensions of the face\'s bounding box\n* `neighbours`, `confidence` : info from the detection algorithm\n\n### Simple example\n\n    var face_detect = require(\'face_detect\'),\n        Canvas = require(\'canvas\');\n    \n    // ... initialize a canvas object ...\n    \n    var result = face_detect.detect_objects({ "canvas" : myCanvas,\n      "interval" : 5,\n      "min_neighbors" : 1 });\n    \n    console.log(\'Found \' + result.length  + \' faces.\');\n    \n    for (var i = 0; i < result.length; i++){\n      var face =  result[i];\n      console.log(face);\n    }\n    \n\nin future, directly passing an image path or a buffer containing raw png data will be supported\n\n# Credits\n\nIt\'s important to note that this is *not my work*. All credit for the actual face-detection work should go to [Liu Liu](https://github.com/liuliu/).\n\nI have just taken the browser JS from that project (in branch [current](https://github.com/liuliu/ccv/tree/current/js), plucked out the threading support and made it useable with node & npm via [node-canvas](https://github.com/LearnBoost/node-canvas/)\n\n# Install\n\nThis project is installed with [npm](http://npmjs.org).\n\n## from npm repository\n  \n    $cd my-project\n    $ npm install face-detect\n\n## locally with npm\n\n    $ git clone https://orls@github.com/orls/ccv-purejs.git face-detect\n    $ cd face-detect\n    $ npm install\n    $ cd ../my-project\n    $ npm install ../face-detect\n',
+110 silly resolved     readmeFilename: 'README.md',
+110 silly resolved     _id: 'face-detect@0.0.1',
+110 silly resolved     dist: { shasum: 'c57c68c495939ff8d8e3168551163cbe8d79d257' },
+110 silly resolved     _from: 'face-detect@',
+110 silly resolved     _resolved: 'https://registry.npmjs.org/face-detect/-/face-detect-0.0.1.tgz' } ]
+111 info install face-detect@0.0.1 into C:\Users\300068\Documents\GitHub\Drone
+112 info installOne face-detect@0.0.1
+113 verbose from cache C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package\package.json
+114 info C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect unbuild
+115 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\package.json
+116 verbose tar unpack C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+117 silly lockFile e78f47be-b-Drone-node-modules-face-detect C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect
+118 verbose lock C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect C:\Users\300068\AppData\Roaming\npm-cache\e78f47be-b-Drone-node-modules-face-detect.lock
+119 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+120 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz C:\Users\300068\AppData\Roaming\npm-cache\70e87f5b-he-face-detect-0-0-1-package-tgz.lock
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+124 silly gunzTarPerm extractEntry README.md
+125 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+126 silly gunzTarPerm extractEntry lib/cascade.js
+127 silly gunzTarPerm modified mode [ 'lib/cascade.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry lib/ccv.js
+129 silly gunzTarPerm modified mode [ 'lib/ccv.js', 438, 420 ]
+130 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\package.json
+131 silly lockFile e78f47be-b-Drone-node-modules-face-detect C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect
+132 silly lockFile e78f47be-b-Drone-node-modules-face-detect C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect
+133 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+134 silly lockFile 70e87f5b-he-face-detect-0-0-1-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\face-detect\0.0.1\package.tgz
+135 info preinstall face-detect@0.0.1
+136 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\package.json
+137 verbose readDependencies using package.json deps
+138 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\package.json
+139 verbose readDependencies using package.json deps
+140 verbose cache add [ 'canvas@>=0.5.4', null ]
+141 verbose cache add name=undefined spec="canvas@>=0.5.4" args=["canvas@>=0.5.4",null]
+142 verbose parsed url { pathname: 'canvas@%3E=0.5.4',
+142 verbose parsed url   path: 'canvas@%3E=0.5.4',
+142 verbose parsed url   href: 'canvas@%3E=0.5.4' }
+143 verbose cache add name="canvas" spec=">=0.5.4" args=["canvas",">=0.5.4"]
+144 verbose parsed url { pathname: '%3E=0.5.4', path: '%3E=0.5.4', href: '%3E=0.5.4' }
+145 verbose addNamed [ 'canvas', '>=0.5.4' ]
+146 verbose addNamed [ null, '>=0.5.4' ]
+147 silly lockFile ba567062-canvas-0-5-4 canvas@>=0.5.4
+148 verbose lock canvas@>=0.5.4 C:\Users\300068\AppData\Roaming\npm-cache\ba567062-canvas-0-5-4.lock
+149 silly addNameRange { name: 'canvas', range: '>=0.5.4', hasData: false }
+150 verbose url raw canvas
+151 verbose url resolving [ 'https://registry.npmjs.org/', './canvas' ]
+152 verbose url resolved https://registry.npmjs.org/canvas
+153 info trying registry request attempt 1 at 13:59:14
+154 http GET https://registry.npmjs.org/canvas
+155 http 200 https://registry.npmjs.org/canvas
+156 silly registry.get cb [ 200,
+156 silly registry.get   { vary: 'Accept',
+156 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+156 silly registry.get     etag: '"1X1XYS42OB6SI1PJD9J7JCGHH"',
+156 silly registry.get     date: 'Tue, 02 Apr 2013 02:59:20 GMT',
+156 silly registry.get     'content-type': 'application/json',
+156 silly registry.get     'content-length': '147126' } ]
+157 silly addNameRange number 2 { name: 'canvas', range: '>=0.5.4', hasData: true }
+158 silly addNameRange versions [ 'canvas',
+158 silly addNameRange   [ '0.0.1',
+158 silly addNameRange     '0.0.2',
+158 silly addNameRange     '0.0.3',
+158 silly addNameRange     '0.0.4',
+158 silly addNameRange     '0.0.5',
+158 silly addNameRange     '0.0.6',
+158 silly addNameRange     '0.0.7',
+158 silly addNameRange     '0.0.8',
+158 silly addNameRange     '0.1.0',
+158 silly addNameRange     '0.2.0',
+158 silly addNameRange     '0.2.1',
+158 silly addNameRange     '0.3.0',
+158 silly addNameRange     '0.3.1',
+158 silly addNameRange     '0.3.2',
+158 silly addNameRange     '0.3.3',
+158 silly addNameRange     '0.4.0',
+158 silly addNameRange     '0.4.1',
+158 silly addNameRange     '0.4.2',
+158 silly addNameRange     '0.4.3',
+158 silly addNameRange     '0.5.0',
+158 silly addNameRange     '0.5.1',
+158 silly addNameRange     '0.5.2',
+158 silly addNameRange     '0.5.3',
+158 silly addNameRange     '0.5.4',
+158 silly addNameRange     '0.6.0',
+158 silly addNameRange     '0.7.0',
+158 silly addNameRange     '0.7.1',
+158 silly addNameRange     '0.7.2',
+158 silly addNameRange     '0.7.3',
+158 silly addNameRange     '0.8.0',
+158 silly addNameRange     '0.8.1',
+158 silly addNameRange     '0.8.2',
+158 silly addNameRange     '0.8.3',
+158 silly addNameRange     '0.9.0',
+158 silly addNameRange     '0.10.0',
+158 silly addNameRange     '0.10.1',
+158 silly addNameRange     '0.10.2',
+158 silly addNameRange     '0.10.3',
+158 silly addNameRange     '0.11.0',
+158 silly addNameRange     '0.11.1',
+158 silly addNameRange     '0.11.2',
+158 silly addNameRange     '0.11.3',
+158 silly addNameRange     '0.12.0',
+158 silly addNameRange     '0.12.1',
+158 silly addNameRange     '0.13.0',
+158 silly addNameRange     '0.13.1',
+158 silly addNameRange     '1.0.0',
+158 silly addNameRange     '1.0.1',
+158 silly addNameRange     '1.0.2' ] ]
+159 verbose addNamed [ 'canvas', '1.0.2' ]
+160 verbose addNamed [ '1.0.2', '1.0.2' ]
+161 silly lockFile 65f60b3e-canvas-1-0-2 canvas@1.0.2
+162 verbose lock canvas@1.0.2 C:\Users\300068\AppData\Roaming\npm-cache\65f60b3e-canvas-1-0-2.lock
+163 silly lockFile 3ff761f5-pmjs-org-canvas-canvas-1-0-2-tgz https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz
+164 verbose lock https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz C:\Users\300068\AppData\Roaming\npm-cache\3ff761f5-pmjs-org-canvas-canvas-1-0-2-tgz.lock
+165 verbose addRemoteTarball [ 'https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz',
+165 verbose addRemoteTarball   '1116854805fd7236446602e3c034a469fea65806' ]
+166 info retry fetch attempt 1 at 13:59:19
+167 verbose fetch to= C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz
+168 http GET https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz
+169 http 200 https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz
+170 silly shasum updated bytes 40960
+171 silly shasum updated bytes 2224
+172 info shasum 1116854805fd7236446602e3c034a469fea65806
+172 info shasum C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz
+173 verbose tar unpack C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz
+174 silly lockFile 3a91e311-59624-0-4660434063989669-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+175 verbose lock C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package C:\Users\300068\AppData\Roaming\npm-cache\3a91e311-59624-0-4660434063989669-package.lock
+176 silly lockFile 460c5e36-59624-0-4660434063989669-tmp-tgz C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz
+177 verbose lock C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz C:\Users\300068\AppData\Roaming\npm-cache\460c5e36-59624-0-4660434063989669-tmp-tgz.lock
+178 silly gunzTarPerm modes [ '755', '644' ]
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm extractEntry .npmignore
+181 silly gunzTarPerm extractEntry index.js
+182 silly gunzTarPerm extractEntry install
+183 silly gunzTarPerm extractEntry History.md
+184 silly gunzTarPerm extractEntry .gitmodules
+185 silly gunzTarPerm extractEntry .travis.yml
+186 silly gunzTarPerm extractEntry lib/bindings.js
+187 silly gunzTarPerm extractEntry lib/canvas.js
+188 silly gunzTarPerm extractEntry lib/context2d.js
+189 silly gunzTarPerm extractEntry lib/image.js
+190 silly gunzTarPerm extractEntry lib/jpegstream.js
+191 silly gunzTarPerm extractEntry lib/pixelarray.js
+192 silly gunzTarPerm extractEntry lib/pngstream.js
+193 silly gunzTarPerm extractEntry Makefile
+194 silly gunzTarPerm extractEntry binding.gyp
+195 silly gunzTarPerm extractEntry Readme.md
+196 silly gunzTarPerm extractEntry src/FontFace.cc
+197 silly gunzTarPerm extractEntry src/Canvas.cc
+198 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+199 silly gunzTarPerm extractEntry src/CanvasGradient.h
+200 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+201 silly gunzTarPerm extractEntry src/CanvasPattern.h
+202 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+203 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+204 silly gunzTarPerm extractEntry src/closure.h
+205 silly gunzTarPerm extractEntry src/color.cc
+206 silly gunzTarPerm extractEntry src/color.h
+207 silly gunzTarPerm extractEntry src/Canvas.h
+208 silly gunzTarPerm extractEntry src/FontFace.h
+209 silly gunzTarPerm extractEntry src/Image.cc
+210 silly gunzTarPerm extractEntry src/Image.h
+211 silly gunzTarPerm extractEntry src/ImageData.cc
+212 silly gunzTarPerm extractEntry src/ImageData.h
+213 silly gunzTarPerm extractEntry src/init.cc
+214 silly gunzTarPerm extractEntry src/JPEGStream.h
+215 silly gunzTarPerm extractEntry src/PixelArray.cc
+216 silly gunzTarPerm extractEntry src/PixelArray.h
+217 silly gunzTarPerm extractEntry src/Point.h
+218 silly gunzTarPerm extractEntry util/cairo_include.sh
+219 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+220 silly gunzTarPerm extractEntry util/has_lib.sh
+221 silly gunzTarPerm extractEntry util/lib_lookup.sh
+222 verbose read json C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package\package.json
+223 silly lockFile 3a91e311-59624-0-4660434063989669-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+224 silly lockFile 3a91e311-59624-0-4660434063989669-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+225 silly lockFile 460c5e36-59624-0-4660434063989669-tmp-tgz C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz
+226 silly lockFile 460c5e36-59624-0-4660434063989669-tmp-tgz C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\tmp.tgz
+227 verbose from cache C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package\package.json
+228 verbose tar pack [ 'C:\\Users\\300068\\AppData\\Roaming\\npm-cache\\canvas\\1.0.2\\package.tgz',
+228 verbose tar pack   'C:\\Users\\300068\\AppData\\Local\\Temp\\npm-1936\\1364871559624-0.4660434063989669\\package' ]
+229 verbose tarball C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+230 verbose folder C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+231 silly lockFile 3a91e311-59624-0-4660434063989669-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+232 verbose lock C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package C:\Users\300068\AppData\Roaming\npm-cache\3a91e311-59624-0-4660434063989669-package.lock
+233 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+234 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz C:\Users\300068\AppData\Roaming\npm-cache\86f6cabc-m-cache-canvas-1-0-2-package-tgz.lock
+235 silly lockFile 3a91e311-59624-0-4660434063989669-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+236 silly lockFile 3a91e311-59624-0-4660434063989669-package C:\Users\300068\AppData\Local\Temp\npm-1936\1364871559624-0.4660434063989669\package
+237 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+238 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+239 silly lockFile fe74c4c4-g-npm-cache-canvas-1-0-2-package C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package
+240 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package C:\Users\300068\AppData\Roaming\npm-cache\fe74c4c4-g-npm-cache-canvas-1-0-2-package.lock
+241 silly lockFile fe74c4c4-g-npm-cache-canvas-1-0-2-package C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package
+242 silly lockFile fe74c4c4-g-npm-cache-canvas-1-0-2-package C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package
+243 verbose tar unpack C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+244 silly lockFile fe74c4c4-g-npm-cache-canvas-1-0-2-package C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package
+245 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package C:\Users\300068\AppData\Roaming\npm-cache\fe74c4c4-g-npm-cache-canvas-1-0-2-package.lock
+246 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+247 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz C:\Users\300068\AppData\Roaming\npm-cache\86f6cabc-m-cache-canvas-1-0-2-package-tgz.lock
+248 silly gunzTarPerm modes [ '755', '644' ]
+249 silly gunzTarPerm extractEntry package.json
+250 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+251 silly gunzTarPerm extractEntry .npmignore
+252 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+253 silly gunzTarPerm extractEntry index.js
+254 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+255 silly gunzTarPerm extractEntry install
+256 silly gunzTarPerm modified mode [ 'install', 438, 420 ]
+257 silly gunzTarPerm extractEntry History.md
+258 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+259 silly gunzTarPerm extractEntry .gitmodules
+260 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+261 silly gunzTarPerm extractEntry .travis.yml
+262 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+263 silly gunzTarPerm extractEntry lib/bindings.js
+264 silly gunzTarPerm modified mode [ 'lib/bindings.js', 438, 420 ]
+265 silly gunzTarPerm extractEntry lib/canvas.js
+266 silly gunzTarPerm modified mode [ 'lib/canvas.js', 438, 420 ]
+267 silly gunzTarPerm extractEntry lib/context2d.js
+268 silly gunzTarPerm modified mode [ 'lib/context2d.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry lib/image.js
+270 silly gunzTarPerm modified mode [ 'lib/image.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry lib/jpegstream.js
+272 silly gunzTarPerm modified mode [ 'lib/jpegstream.js', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/pixelarray.js
+274 silly gunzTarPerm modified mode [ 'lib/pixelarray.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/pngstream.js
+276 silly gunzTarPerm modified mode [ 'lib/pngstream.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry Makefile
+278 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+279 silly gunzTarPerm extractEntry binding.gyp
+280 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+281 silly gunzTarPerm extractEntry Readme.md
+282 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+283 silly gunzTarPerm extractEntry src/FontFace.cc
+284 silly gunzTarPerm modified mode [ 'src/FontFace.cc', 438, 420 ]
+285 silly gunzTarPerm extractEntry src/Canvas.cc
+286 silly gunzTarPerm modified mode [ 'src/Canvas.cc', 438, 420 ]
+287 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+288 silly gunzTarPerm modified mode [ 'src/CanvasGradient.cc', 438, 420 ]
+289 silly gunzTarPerm extractEntry src/CanvasGradient.h
+290 silly gunzTarPerm modified mode [ 'src/CanvasGradient.h', 438, 420 ]
+291 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+292 silly gunzTarPerm modified mode [ 'src/CanvasPattern.cc', 438, 420 ]
+293 silly gunzTarPerm extractEntry src/CanvasPattern.h
+294 silly gunzTarPerm modified mode [ 'src/CanvasPattern.h', 438, 420 ]
+295 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+296 silly gunzTarPerm modified mode [ 'src/CanvasRenderingContext2d.cc', 438, 420 ]
+297 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+298 silly gunzTarPerm modified mode [ 'src/CanvasRenderingContext2d.h', 438, 420 ]
+299 silly gunzTarPerm extractEntry src/closure.h
+300 silly gunzTarPerm modified mode [ 'src/closure.h', 438, 420 ]
+301 silly gunzTarPerm extractEntry src/color.cc
+302 silly gunzTarPerm modified mode [ 'src/color.cc', 438, 420 ]
+303 silly gunzTarPerm extractEntry src/color.h
+304 silly gunzTarPerm modified mode [ 'src/color.h', 438, 420 ]
+305 silly gunzTarPerm extractEntry src/Canvas.h
+306 silly gunzTarPerm modified mode [ 'src/Canvas.h', 438, 420 ]
+307 silly gunzTarPerm extractEntry src/FontFace.h
+308 silly gunzTarPerm modified mode [ 'src/FontFace.h', 438, 420 ]
+309 silly gunzTarPerm extractEntry src/Image.cc
+310 silly gunzTarPerm modified mode [ 'src/Image.cc', 438, 420 ]
+311 silly gunzTarPerm extractEntry src/Image.h
+312 silly gunzTarPerm modified mode [ 'src/Image.h', 438, 420 ]
+313 silly gunzTarPerm extractEntry src/ImageData.cc
+314 silly gunzTarPerm modified mode [ 'src/ImageData.cc', 438, 420 ]
+315 silly gunzTarPerm extractEntry src/ImageData.h
+316 silly gunzTarPerm modified mode [ 'src/ImageData.h', 438, 420 ]
+317 silly gunzTarPerm extractEntry src/init.cc
+318 silly gunzTarPerm modified mode [ 'src/init.cc', 438, 420 ]
+319 silly gunzTarPerm extractEntry src/JPEGStream.h
+320 silly gunzTarPerm modified mode [ 'src/JPEGStream.h', 438, 420 ]
+321 silly gunzTarPerm extractEntry src/PixelArray.cc
+322 silly gunzTarPerm modified mode [ 'src/PixelArray.cc', 438, 420 ]
+323 silly gunzTarPerm extractEntry src/PixelArray.h
+324 silly gunzTarPerm modified mode [ 'src/PixelArray.h', 438, 420 ]
+325 silly gunzTarPerm extractEntry src/Point.h
+326 silly gunzTarPerm modified mode [ 'src/Point.h', 438, 420 ]
+327 silly gunzTarPerm extractEntry util/cairo_include.sh
+328 silly gunzTarPerm modified mode [ 'util/cairo_include.sh', 438, 420 ]
+329 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+330 silly gunzTarPerm modified mode [ 'util/has_cairo_freetype.sh', 438, 420 ]
+331 silly gunzTarPerm extractEntry util/has_lib.sh
+332 silly gunzTarPerm modified mode [ 'util/has_lib.sh', 438, 420 ]
+333 silly gunzTarPerm extractEntry util/lib_lookup.sh
+334 silly gunzTarPerm modified mode [ 'util/lib_lookup.sh', 438, 420 ]
+335 verbose read json C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package\package.json
+336 silly lockFile fe74c4c4-g-npm-cache-canvas-1-0-2-package C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package
+337 silly lockFile fe74c4c4-g-npm-cache-canvas-1-0-2-package C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package
+338 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+339 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+340 silly shasum updated bytes 40960
+341 silly shasum updated bytes 2074
+342 info shasum 66d1ca454bd42663da0c32321bc30608d36bbccc
+342 info shasum C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+343 verbose from cache C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package\package.json
+344 verbose chmod C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz 644
+345 silly chown skipping for windows C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+346 silly lockFile 3ff761f5-pmjs-org-canvas-canvas-1-0-2-tgz https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz
+347 silly lockFile 3ff761f5-pmjs-org-canvas-canvas-1-0-2-tgz https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz
+348 silly lockFile 65f60b3e-canvas-1-0-2 canvas@1.0.2
+349 silly lockFile 65f60b3e-canvas-1-0-2 canvas@1.0.2
+350 silly lockFile ba567062-canvas-0-5-4 canvas@>=0.5.4
+351 silly lockFile ba567062-canvas-0-5-4 canvas@>=0.5.4
+352 silly resolved [ { name: 'canvas',
+352 silly resolved     description: 'Canvas graphics API backed by Cairo',
+352 silly resolved     version: '1.0.2',
+352 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+352 silly resolved     keywords:
+352 silly resolved      [ 'canvas',
+352 silly resolved        'graphic',
+352 silly resolved        'graphics',
+352 silly resolved        'pixman',
+352 silly resolved        'cairo',
+352 silly resolved        'image',
+352 silly resolved        'images',
+352 silly resolved        'pdf' ],
+352 silly resolved     homepage: 'https://github.com/learnboost/node-canvas',
+352 silly resolved     repository: { type: 'git', url: 'git://github.com/learnboost/node-canvas' },
+352 silly resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+352 silly resolved     devDependencies: { express: '3.0', jade: '0.28.1', mocha: '*', should: '*' },
+352 silly resolved     engines: { node: '>= 0.6.0' },
+352 silly resolved     main: './lib/canvas.js',
+352 silly resolved     gypfile: true,
+352 silly resolved     readme: '# node-canvas\n\n Node canvas is a [Cairo](http://cairographics.org/) backed Canvas implementation for [NodeJS](http://nodejs.org).\n\n## Authors\n\n  - TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))\n\n## Installation\n\n    $ npm install canvas\n\nUnless previously installed you\'ll _need_ __Cairo__. For system-specific installation view the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages).\n\n## Screencasts\n\n  - [Introduction](http://screenr.com/CTk)\n\n## Example\n\n```javascript\nvar Canvas = require(\'canvas\')\n  , canvas = new Canvas(200,200)\n  , ctx = canvas.getContext(\'2d\');\n\nctx.font = \'30px Impact\';\nctx.rotate(.1);\nctx.fillText("Awesome!", 50, 100);\n\nvar te = ctx.measureText(\'Awesome!\');\nctx.strokeStyle = \'rgba(0,0,0,0.5)\';\nctx.beginPath();\nctx.lineTo(50, 102);\nctx.lineTo(50 + te.width, 102);\nctx.stroke();\n\nconsole.log(\'<img src="\' + canvas.toDataURL() + \'" />\');\n```\n\n## Non-Standard API\n\n node-canvas extends the canvas API to provide interfacing with node, for example streaming PNG data, converting to a `Buffer` instance, etc. Among the interfacing API, in some cases the drawing API has been extended for SSJS image manipulation / creation usage, however keep in mind these additions may fail to render properly within browsers.\n\n### Image#src=Buffer\n\n node-canvas adds `Image#src=Buffer` support, allowing you to read images from disc, redis, etc and apply them via `ctx.drawImage()`. Below we draw scaled down squid png by reading it from the disk with node\'s I/O.\n\n```javascript\nfs.readFile(__dirname + \'/images/squid.png\', function(err, squid){\n  if (err) throw err;\n  img = new Image;\n  img.src = squid;\n  ctx.drawImage(img, 0, 0, img.width / 4, img.height / 4);\n});\n```\n\n Below is an example of a canvas drawing it-self as the source several time:\n\n```javascript\nvar img = new Image;\nimg.src = canvas.toBuffer();\nctx.drawImage(img, 0, 0, 50, 50);\nctx.drawImage(img, 50, 0, 50, 50);\nctx.drawImage(img, 100, 0, 50, 50);\n```\n\n### Image#dataMode\n\nnode-canvas adds `Image#dataMode` support, which can be used to opt-in to mime data tracking of images (currently only JPEGs).\n\nWhen mime data is tracked, in PDF mode JPEGs can be embedded directly into the output, rather than being re-encoded into PNG. This can drastically reduce filesize, and speed up rendering.\n\n```javascript\nvar img = new Image;\nimg.dataMode = Image.MODE_IMAGE; // Only image data tracked\nimg.dataMode = Image.MODE_MIME; // Only mime data tracked\nimg.dataMode = Image.MODE_MIME | Image.MODE_IMAGE; // Both are tracked\n```\n\nIf image data is not tracked, and the Image is drawn to an image rather than a PDF canvas, the output will be junk. Enabling mime data tracking has no benefits (only a slow down) unless you are generating a PDF.\n\n### Canvas#pngStream()\n\n  To create a `PNGStream` simply call `canvas.pngStream()`, and the stream will start to emit _data_ events, finally emitting _end_ when finished. If an exception occurs the _error_ event is emitted.\n\n```javascript\nvar fs = require(\'fs\')\n  , out = fs.createWriteStream(__dirname + \'/text.png\')\n  , stream = canvas.pngStream();\n\nstream.on(\'data\', function(chunk){\n  out.write(chunk);\n});\n\nstream.on(\'end\', function(){\n  console.log(\'saved png\');\n});\n```\n\nCurrently _only_ sync streaming is supported, however we plan on supporting async streaming as well (of course :) ). Until then the `Canvas#toBuffer(callback)` alternative is async utilizing `eio_custom()`.\n\n### Canvas#jpegStream()\n\nYou can likewise create a `JPEGStream` by calling `canvas.jpegStream()` with some optional parameters; functionality is otherwise identical to `pngStream()`. See `examples/crop.js` for an example.\n\n### Canvas#toBuffer()\n\nA call to `Canvas#toBuffer()` will return a node `Buffer` instance containing all of the PNG data.\n\n```javascript\ncanvas.toBuffer();\n```\n\n### Canvas#toBuffer() async\n\nOptionally we may pass a callback function to `Canvas#toBuffer()`, and this process will be performed asynchronously, and will `callback(err, buf)`.\n\n```javascript\ncanvas.toBuffer(function(err, buf){\n\n});\n```\n\n### Canvas#toDataURL() async\n\nOptionally we may pass a callback function to `Canvas#toDataURL()`, and this process will be performed asynchronously, and will `callback(err, str)`.\n\n```javascript\ncanvas.toDataURL(function(err, str){\n\n});\n```\n\nor specify the mime type:\n\n```javascript\ncanvas.toDataURL(\'image/png\', function(err, str){\n\n});\n```\n\n### CanvasRenderingContext2d#patternQuality\n\nGiven one of the values below will alter pattern (gradients, images, etc) render quality, defaults to _good_.\n\n  - fast\n  - good\n  - best\n\n### CanvasRenderingContext2d#textDrawingMode\n\nCan be either `path` or `glyph`. Using `glyph` is much faster than `path` for drawing, and when using a PDF context will embed the text natively, so will be selectable and lower filesize. The downside is that cairo does not have any subpixel precision for `glyph`, so this will be noticeably lower quality for text positioning in cases such as rotated text. Also, strokeText in `glyph` will act the same as fillText, except using the stroke style for the fill.\n\nDefaults to _path_.\n\nThis property is tracked as part of the canvas state in save/restore.\n\n### Global Composite Operations\n\nIn addition to those specified and commonly implemented by browsers, the following have been added:\n\n  - multiply\n  - screen\n  - overlay\n  - hard-light\n  - soft-light\n  - hsl-hue\n  - hsl-saturation\n  - hsl-color\n  - hsl-luminosity\n\n## Anti-Aliasing\n\n Set anti-aliasing mode\n\n - default\n - none\n - gray\n - subpixel\n\n For example:\n\n```javascript\nctx.antialias = \'none\';\n```\n\n## PDF Support\n\n  Basic PDF support was added in 0.11.0. Make sure to install cairo with `--enable-pdf=yes` for the PDF backend. node-canvas must know that it is creating\n  a PDF on initialization, using the "pdf" string:\n\n```js\nvar canvas = new Canvas(200, 500, \'pdf\');\n```\n\n An additional method `.addPage()` is then available to create \n multiple page PDFs:\n\n```js\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World\', 50, 80);\nctx.addPage();\n\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World 2\', 50, 80);\nctx.addPage();\n\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World 3\', 50, 80);\nctx.addPage();\n```\n\n## Benchmarks\n\n Although node-canvas is extremely new, and we have not even begun optimization yet it is already quite fast. For benchmarks vs other node canvas implementations view this [gist](https://gist.github.com/664922), or update the submodules and run `$ make benchmark` yourself.\n\n## Contribute\n\n Want to contribute to node-canvas? patches for features, bug fixes, documentation, examples and others are certainly welcome. Take a look at the [issue queue](https://github.com/LearnBoost/node-canvas/issues) for existing issues.\n\n## Examples\n\n Examples are placed in _./examples_, be sure to check them out! most produce a png image of the same name, and others such as _live-clock.js_ launch an http server to be viewed in the browser.\n\n## Testing\n\nIf you have not previously, init git submodules:\n\n    $ git submodule update --init\n\nBuild node-canvas:\n\n    $ node-waf configure build\n\nUnit tests:\n\n    $ make test\n\nVisual tests:\n\n    $ make test-server\n\n## Versions\n\nTested with and designed for:\n\n  - node 0.4.2\n  - cairo 1.8.6\n\nFor node 0.2.x `node-canvas` <= 0.4.3 may be used,\n0.5.0 and above are designed for node 0.4.x only.\n\n## Contributors\n\n```\nproject  : node-canvas\n repo age : 1 year, 11 months\n active   : 120 days\n commits  : 963\n files    : 72\n authors  : \n   816\tTj Holowaychuk          84.7%\n    58\tTJ Holowaychuk          6.0%\n    23\tc-spencer               2.4%\n    16\tNathan Rajlich          1.7%\n    12\tatomizer                1.2%\n     6\tElijah Hamovitz         0.6%\n     5\tLuigi Pinca             0.5%\n     5\tRobert Sköld            0.5%\n     4\tobarthel                0.4%\n     3\tDon Park                0.3%\n     2\tAndreas Botsikas        0.2%\n     2\tGabriel Falcao          0.2%\n     1\tBrian McKinney          0.1%\n     1\tSeiya Konno             0.1%\n     1\tSyoyo Fujita            0.1%\n     1\tMarcello Bastea-Forte   0.1%\n     1\tTharit                  0.1%\n     1\tKonstantin Käfer        0.1%\n     1\tTom Carden              0.1%\n     1\tWalt Lin                0.1%\n     1\tDavid Björklund         0.1%\n     1\tBrian White             0.1%\n     1\tPhilippe Plantier       0.1%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2010 LearnBoost &lt;dev@learnboost.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+352 silly resolved     readmeFilename: 'Readme.md',
+352 silly resolved     _id: 'canvas@1.0.2',
+352 silly resolved     dist: { shasum: '66d1ca454bd42663da0c32321bc30608d36bbccc' },
+352 silly resolved     _from: 'canvas@>=0.5.4',
+352 silly resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.0.2.tgz' } ]
+353 info install canvas@1.0.2 into C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect
+354 info installOne canvas@1.0.2
+355 verbose from cache C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package\package.json
+356 info C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas unbuild
+357 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas\package.json
+358 verbose tar unpack C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+359 silly lockFile 09f57697--face-detect-node-modules-canvas C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas
+360 verbose lock C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas C:\Users\300068\AppData\Roaming\npm-cache\09f57697--face-detect-node-modules-canvas.lock
+361 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+362 verbose lock C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz C:\Users\300068\AppData\Roaming\npm-cache\86f6cabc-m-cache-canvas-1-0-2-package-tgz.lock
+363 silly gunzTarPerm modes [ '755', '644' ]
+364 silly gunzTarPerm extractEntry package.json
+365 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+366 silly gunzTarPerm extractEntry .npmignore
+367 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+368 silly gunzTarPerm extractEntry index.js
+369 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry install
+371 silly gunzTarPerm modified mode [ 'install', 438, 420 ]
+372 silly gunzTarPerm extractEntry History.md
+373 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+374 silly gunzTarPerm extractEntry .gitmodules
+375 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+376 silly gunzTarPerm extractEntry .travis.yml
+377 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+378 silly gunzTarPerm extractEntry lib/bindings.js
+379 silly gunzTarPerm modified mode [ 'lib/bindings.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry lib/canvas.js
+381 silly gunzTarPerm modified mode [ 'lib/canvas.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry lib/context2d.js
+383 silly gunzTarPerm modified mode [ 'lib/context2d.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry lib/image.js
+385 silly gunzTarPerm modified mode [ 'lib/image.js', 438, 420 ]
+386 silly gunzTarPerm extractEntry lib/jpegstream.js
+387 silly gunzTarPerm modified mode [ 'lib/jpegstream.js', 438, 420 ]
+388 silly gunzTarPerm extractEntry lib/pixelarray.js
+389 silly gunzTarPerm modified mode [ 'lib/pixelarray.js', 438, 420 ]
+390 silly gunzTarPerm extractEntry lib/pngstream.js
+391 silly gunzTarPerm modified mode [ 'lib/pngstream.js', 438, 420 ]
+392 silly gunzTarPerm extractEntry Makefile
+393 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+394 silly gunzTarPerm extractEntry binding.gyp
+395 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+396 silly gunzTarPerm extractEntry Readme.md
+397 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+398 silly gunzTarPerm extractEntry src/FontFace.cc
+399 silly gunzTarPerm modified mode [ 'src/FontFace.cc', 438, 420 ]
+400 silly gunzTarPerm extractEntry src/Canvas.cc
+401 silly gunzTarPerm modified mode [ 'src/Canvas.cc', 438, 420 ]
+402 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+403 silly gunzTarPerm modified mode [ 'src/CanvasGradient.cc', 438, 420 ]
+404 silly gunzTarPerm extractEntry src/CanvasGradient.h
+405 silly gunzTarPerm modified mode [ 'src/CanvasGradient.h', 438, 420 ]
+406 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+407 silly gunzTarPerm modified mode [ 'src/CanvasPattern.cc', 438, 420 ]
+408 silly gunzTarPerm extractEntry src/CanvasPattern.h
+409 silly gunzTarPerm modified mode [ 'src/CanvasPattern.h', 438, 420 ]
+410 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+411 silly gunzTarPerm modified mode [ 'src/CanvasRenderingContext2d.cc', 438, 420 ]
+412 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+413 silly gunzTarPerm modified mode [ 'src/CanvasRenderingContext2d.h', 438, 420 ]
+414 silly gunzTarPerm extractEntry src/closure.h
+415 silly gunzTarPerm modified mode [ 'src/closure.h', 438, 420 ]
+416 silly gunzTarPerm extractEntry src/color.cc
+417 silly gunzTarPerm modified mode [ 'src/color.cc', 438, 420 ]
+418 silly gunzTarPerm extractEntry src/color.h
+419 silly gunzTarPerm modified mode [ 'src/color.h', 438, 420 ]
+420 silly gunzTarPerm extractEntry src/Canvas.h
+421 silly gunzTarPerm modified mode [ 'src/Canvas.h', 438, 420 ]
+422 silly gunzTarPerm extractEntry src/FontFace.h
+423 silly gunzTarPerm modified mode [ 'src/FontFace.h', 438, 420 ]
+424 silly gunzTarPerm extractEntry src/Image.cc
+425 silly gunzTarPerm modified mode [ 'src/Image.cc', 438, 420 ]
+426 silly gunzTarPerm extractEntry src/Image.h
+427 silly gunzTarPerm modified mode [ 'src/Image.h', 438, 420 ]
+428 silly gunzTarPerm extractEntry src/ImageData.cc
+429 silly gunzTarPerm modified mode [ 'src/ImageData.cc', 438, 420 ]
+430 silly gunzTarPerm extractEntry src/ImageData.h
+431 silly gunzTarPerm modified mode [ 'src/ImageData.h', 438, 420 ]
+432 silly gunzTarPerm extractEntry src/init.cc
+433 silly gunzTarPerm modified mode [ 'src/init.cc', 438, 420 ]
+434 silly gunzTarPerm extractEntry src/JPEGStream.h
+435 silly gunzTarPerm modified mode [ 'src/JPEGStream.h', 438, 420 ]
+436 silly gunzTarPerm extractEntry src/PixelArray.cc
+437 silly gunzTarPerm modified mode [ 'src/PixelArray.cc', 438, 420 ]
+438 silly gunzTarPerm extractEntry src/PixelArray.h
+439 silly gunzTarPerm modified mode [ 'src/PixelArray.h', 438, 420 ]
+440 silly gunzTarPerm extractEntry src/Point.h
+441 silly gunzTarPerm modified mode [ 'src/Point.h', 438, 420 ]
+442 silly gunzTarPerm extractEntry util/cairo_include.sh
+443 silly gunzTarPerm modified mode [ 'util/cairo_include.sh', 438, 420 ]
+444 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+445 silly gunzTarPerm modified mode [ 'util/has_cairo_freetype.sh', 438, 420 ]
+446 silly gunzTarPerm extractEntry util/has_lib.sh
+447 silly gunzTarPerm modified mode [ 'util/has_lib.sh', 438, 420 ]
+448 silly gunzTarPerm extractEntry util/lib_lookup.sh
+449 silly gunzTarPerm modified mode [ 'util/lib_lookup.sh', 438, 420 ]
+450 verbose read json C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas\package.json
+451 silly lockFile 09f57697--face-detect-node-modules-canvas C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas
+452 silly lockFile 09f57697--face-detect-node-modules-canvas C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas
+453 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+454 silly lockFile 86f6cabc-m-cache-canvas-1-0-2-package-tgz C:\Users\300068\AppData\Roaming\npm-cache\canvas\1.0.2\package.tgz
+455 info preinstall canvas@1.0.2
+456 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas\package.json
+457 verbose readDependencies using package.json deps
+458 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas\package.json
+459 verbose readDependencies using package.json deps
+460 silly resolved []
+461 verbose about to build C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas
+462 info build C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas
+463 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas\package.json
+464 verbose linkStuff [ false,
+464 verbose linkStuff   false,
+464 verbose linkStuff   false,
+464 verbose linkStuff   'C:\\Users\\300068\\Documents\\GitHub\\Drone\\node_modules\\face-detect\\node_modules' ]
+465 info linkStuff canvas@1.0.2
+466 verbose linkBins canvas@1.0.2
+467 verbose linkMans canvas@1.0.2
+468 verbose rebuildBundles canvas@1.0.2
+469 info install canvas@1.0.2
+470 verbose unsafe-perm in lifecycle true
+471 silly exec cmd "/c" "node-gyp rebuild"
+472 silly cmd,/c,node-gyp rebuild,C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas spawning
+473 info canvas@1.0.2 Failed to exec install script
+474 info C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas unbuild
+475 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules\canvas\package.json
+476 info preuninstall canvas@1.0.2
+477 info uninstall canvas@1.0.2
+478 verbose false,C:\Users\300068\Documents\GitHub\Drone\node_modules,C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\node_modules unbuild canvas@1.0.2
+479 info postuninstall canvas@1.0.2
+480 verbose about to build C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect
+481 info C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect unbuild
+482 verbose from cache C:\Users\300068\Documents\GitHub\Drone\node_modules\face-detect\package.json
+483 info preuninstall face-detect@0.0.1
+484 info uninstall face-detect@0.0.1
+485 verbose true,C:\Users\300068\Documents\GitHub\Drone\node_modules,C:\Users\300068\Documents\GitHub\Drone\node_modules unbuild face-detect@0.0.1
+486 info postuninstall face-detect@0.0.1
+487 error canvas@1.0.2 install: `node-gyp rebuild`
+487 error `cmd "/c" "node-gyp rebuild"` failed with 1
+488 error Failed at the canvas@1.0.2 install script.
+488 error This is most likely a problem with the canvas package,
+488 error not with npm itself.
+488 error Tell the author that this fails on your system:
+488 error     node-gyp rebuild
+488 error You can get their info via:
+488 error     npm owner ls canvas
+488 error There is likely additional logging output above.
+489 error System Windows_NT 6.1.7601
+490 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "face-detect"
+491 error cwd C:\Users\300068\Documents\GitHub\Drone
+492 error node -v v0.8.20
+493 error npm -v 1.2.11
+494 error code ELIFECYCLE
+495 verbose exit [ 1, true ]
