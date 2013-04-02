@@ -22,6 +22,7 @@ pngStream.on('error', function(err) {
 	console.error('png stream ERROR: ' + err);
 });
 */
+
 client.config('general:navdata_demo', navDataInt.DemoState);
 client.config('control:altitude_max', navDataInt.altitudeMax);
 
@@ -33,4 +34,4 @@ client.after(9000, function () {
 	client.land();
 });
 
-rl.question("Please Enter Landing Code >> ", navDataInt.landingCode);
+rl.question("Press Enter to land the drone and save your life >>", navDataInt.landingCode);
