@@ -1,0 +1,409 @@
+   {
+
+     controlState: 'CTRL_LANDED',
+     flyState: 'FLYING_OK',
+     batteryPercentage: 93,
+     rotation: {
+       frontBack: 0.178,
+       pitch: 0.178,
+       theta: 0.178,
+       y: 0.178,
+       leftRight: 1.194,
+       roll: 1.194,
+       phi: 1.194,
+       x: 1.194,
+       clockwise: 8.436,
+       yaw: 8.436,
+       psi: 8.436,
+       z: 8.436
+     },
+     frontBackDegrees: 0.178,
+     leftRightDegrees: 1.194,
+     clockwiseDegrees: 8.436,
+     altitude: 0,
+     altitudeMeters: 0,
+     velocity: {
+       x: -1.426912546157837,
+       y: -5.860610008239746,
+       z: 0
+     },
+     xVelocity: -1.426912546157837,
+     yVelocity: -5.860610008239746,
+     zVelocity: 0,
+     frameIndex: 0,
+     detection: {
+       camera: [Object],
+       tagIndex: 0
+     },
+     drone: {
+       camera: [Object]
+     }
+   },
+   time: -1020516.877,
+   rawMeasures: {
+     accelerometers: {
+       x: 2084,
+       y: 2072,
+       z: 2564
+     },
+     gyroscopes: {
+       x: 4,
+       y: -70,
+       z: -1
+     },
+     gyrometers: {
+       x: 4,
+       y: -70,
+       z: -1
+     },
+     gyroscopes110: {
+       x: 0,
+       y: 0
+     },
+     gyrometers110: [0, 0],
+     batteryMilliVolt: 12485,
+     us: {
+       echo: [Object],
+       curve: [Object]
+     },
+     usDebutEcho: 0,
+     usFinEcho: 0,
+     usAssociationEcho: 3758,
+     usDistanceEcho: 0,
+     usCourbeTemps: 23665,
+     usCourbeValeur: 0,
+     usCourbeRef: 120,
+     echo: {
+       flagIni: 1,
+       num: 1,
+       sum: 2949205
+     },
+     flagEchoIni: 1,
+     nbEcho: 1,
+     sumEcho: 2949205,
+     altTemp: 240,
+     altTempRaw: 240
+   },
+   physMeasures: {
+     temperature: {
+       accelerometer: 33.966243743896484,
+       gyroscope: 52301
+     },
+     accelerometers: {
+       x: 44.01658248901367,
+       y: -108.01756286621094,
+       z: -1038.1678466796875
+     },
+     gyroscopes: {
+       x: 0.26199042797088623,
+       y: 2.196136951446533,
+       z: -0.39620327949523926
+     },
+     alim3V3: 0,
+     vrefEpson: 0,
+     vrefIDG: 0
+   },
+   gyrosOffsets: {
+     x: -0.055693309754133224,
+     y: 0.10577165335416794,
+     z: 0
+   },
+   eulerAngles: {
+     theta: 2414,
+     phi: 5939
+   },
+   references: {
+     theta: 2,
+     phi: 4,
+     thetaI: 0,
+     phiI: 0,
+     pitch: -6145,
+     roll: -7979,
+     yaw: 1,
+     psi: 8445,
+     vx: 0,
+     vy: 0,
+     thetaMod: -5.306147882189194e-12,
+     phiMod: -2.490711248359645e-10,
+     kVX: 0,
+     kVY: 0,
+     kMode: 0,
+     ui: {
+       time: 0,
+       theta: 0,
+       phi: 0,
+       psi: 0,
+       psiAccuracy: 0,
+       seq: 0
+     }
+   },
+   trims: {
+     angularRates: {
+       r: 0
+     },
+     eulerAngles: {
+       theta: 3333.822998046875,
+       phi: 6249.5361328125
+     }
+   },
+   rcReferences: {
+     pitch: -1,
+     roll: -1,
+     yaw: 0,
+     gaz: 0,
+     ag: 0
+   },
+   pwm: {
+     motors: [0, 0, 0, 0],
+     satMotors: [255, 255, 255, 255],
+     gazFeedForward: 48,
+     gazAltitude: 0,
+     altitudeIntegral: 0,
+     vzRef: 0,
+     uPitch: 0,
+     uRoll: 0,
+     uYaw: 0,
+     yawUI: 92,
+     uPitchPlanif: 0,
+     uRollPlanif: 0,
+     uYawPlanif: 0,
+     uGazPlanif: 0,
+     motorCurrents: [0, 0, 0, 0],
+     altitudeProp: 0,
+     altitudeDer: 0
+   },
+   altitude: {
+     vision: 240,
+     velocity: 0,
+     ref: 240,
+     raw: 240,
+     observer: {
+       acceleration: 0,
+       altitude: 0,
+       x: [Object],
+       state: 0
+     },
+     estimated: {
+       vb: [Object],
+       state: 0
+     }
+   },
+   visionRaw: {
+     tx: -10.198214530944824,
+     ty: -16.334300994873047,
+     tz: 0
+   },
+   visionOf: {
+     dx: [0, 0, 0, 0, 0],
+     dy: [0, 0, 0, 0, 0]
+   },
+   vision: {
+     state: 2,
+     misc: 0,
+     phi: {
+       trim: 0,
+       refProp: 0
+     },
+     theta: {
+       trim: 0,
+       refProp: 0
+     },
+     newRawPicture: 0,
+     capture: {
+       theta: 0.0024404595606029034,
+       phi: 0.020767653360962868,
+       psi: 0.14733219146728516,
+       altitude: 240,
+       time: 1027.469
+     },
+     bodyV: {
+       x: -1.426905632019043,
+       y: -5.859430313110352,
+       z: 0.11768370866775513
+     },
+     delta: {
+       phi: 0,
+       theta: 0,
+       psi: 0
+     },
+     gold: {
+       defined: 0,
+       reset: 0,
+       x: 0,
+       y: 0
+     }
+   },
+   visionPerf: {
+     szo: 0,
+     corners: 0,
+     compute: 0,
+     tracking: 0,
+     trans: 0,
+     update: 0,
+     custom: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+   },
+   trackersSend: {
+     locked: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     0, 0, 0, 0, 0, 0, 0, 0],
+     point: [
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object]
+     ]
+   },
+   visionDetect: {
+     nbDetected: 0,
+     type: [0, 0, 0, 0],
+     xc: [0, 0, 0, 0],
+     yc: [0, 0, 0, 0],
+     width: [0, 0, 0, 0],
+     height: [0, 0, 0, 0],
+     dist: [0, 0, 0, 0],
+     orientationAngle: [0, 0, 0, 0],
+     rotation: [
+       [Object],
+       [Object],
+       [Object],
+       [Object]
+     ],
+     translation: [
+       [Object],
+       [Object],
+       [Object],
+       [Object]
+     ],
+     cameraSource: [0, 0, 0, 0]
+   },
+   watchdog: 5310,
+   adcDataFrame: {
+     version: 0,
+     dataFrame: [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0]
+   },
+   videoStream: {
+     quant: 0,
+     frame: {
+       size: 2508,
+       number: 3768
+     },
+     atcmd: {
+       sequence: 558,
+       meanGap: 0,
+       varGap: 1.4142135381698608,
+       quality: 0
+     },
+     bitrate: {
+       out: 0,
+       desired: 0
+     },
+     data: [0, 0, 0, 0, 0],
+     tcpQueueLevel: 0,
+     fifoQueueLevel: 0
+   },
+   games: {
+     counters: {
+       doubleTap: 0,
+       finishLine: 0
+     }
+   },
+   pressureRaw: {
+     up: 39394,
+     ut: 25726,
+     temperature: 328,
+     pressure: 100481
+   },
+   magneto: {
+     mx: 90,
+     my: 4,
+     mz: 448,
+     raw: {
+       x: -13.96875,
+       y: -314.296875,
+       z: -1611.75
+     },
+     rectified: {
+       x: 37.92057418823242,
+       y: -229.9739990234375,
+       z: -654.0394287109375
+     },
+     offset: {
+       x: -53.930992126464844,
+       y: -70.74491119384766,
+       z: -962.7669067382812
+     },
+     heading: {
+       unwrapped: 0,
+       gyroUnwrapped: -0.0017263309564441442,
+       fusionUnwrapped: 8.436413764953613
+     },
+     ok: 1,
+     state: 257,
+     radius: 63299983922692100,
+     error: {
+       mean: 1.0776976595005419e-29,
+       variance: -5.896933714348533e-26
+     }
+   },
+   windSpeed: {
+     speed: 5.467504706757609e-7,
+     angle: -48.64387512207031,
+     compensation: {
+       theta: 1.6659162938026384e-8,
+       phi: 2.8070967772464428e-8
+     },
+
+     stateX: [-1.426905632019043, -5.859430313110352,
+     0.00036125851329416037, -0.00041040024370886385,
+     390.43353271484375, -871.2910766601562],
+     debug: [0, 0, 0]
+   },
+   kalmanPressure: {
+     offsetPressure: 100481,
+     estimated: {
+       altitude: 0,
+       velocity: 0,
+       angle: [Object],
+       us: [Object],
+       covariance: [Object],
+       groundEffect: true,
+       sum: 1.401298464324817e-45,
+       reject: true,
+       uMultisinus: 2.399993896484375,
+       gazAltitude: 0,
+       flagMultisinus: false,
+       flagMultisinusStart: false
+     }
+   },
+   hdvideoStream: {
+     hdvideoState: 0,
+     storageFifo: {
+       nbPackets: 0,
+       size: 0
+     },
+     usbkey: {
+       size: 0,
+       freespace: 0,
+       remainingTime: 0
+     },
+     frameNumber: 0
+   },
+   wifi: {
+     linkQuality: 1
+   },
+   zimmu3000: {
+     vzimmuLSB: 0,
+     vzfind: 0
+   }
+   }
