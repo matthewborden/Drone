@@ -30,8 +30,5 @@ console.log("Flight Started:" + new Date());
 
 startFlightTime = new Date();
 
-client.after(9000, function () {
-	client.land();
-});
 
 rl.question("Press Enter to land the drone and save your life >>", navDataInt.landingCode);
