@@ -14,7 +14,7 @@ jsfeat   = require('jsfeat');
 ffmpeg   = require('ffmpeg');
 colors   = require('colors');
 opencv   = require('opencv');
-image    = require('image');
+// Jpeg     = require('jpeg').Jpeg;
 
 VideoStream = new Parser();
 
@@ -32,14 +32,16 @@ TCPStream.connect(function () {
 });
 
 VideoStream.on('data', function (buffer) {    
-    (new Image('png')).encode(buffer, buffer.display_width, buffer.display_height,
-        function (data, error) {
-            fs.writeFile('message.png', data, function (err) {
-              if (err) throw err;
-              console.log('It\'s saved!');
-            });
-        }
-    );
+    console.log("Hello");
+    /*
+    var image = new Jpeg(buffer, buffer.display_width, buffer.display_height);
+    image.encode(function (png_image) {
+        fs.writeFile('message.png', png_image, function (err) {
+          if (err) throw err;
+          console.log('It\'s saved!');
+        });
+    });
+    */
 });//navDataInt.getImageData);
 
 TCPStream.on('error', function(err) {
