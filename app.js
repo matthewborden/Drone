@@ -14,6 +14,7 @@ jsfeat   = require('jsfeat');
 ffmpeg   = require('ffmpeg');
 colors   = require('colors');
 opencv   = require('opencv');
+canvas   = require('./node_modules/node-canvas');
 // Jpeg     = require('jpeg').Jpeg;
 
 VideoStream = new Parser();
@@ -23,26 +24,16 @@ var rl = readline.createInterface({
 	output : process.stdout
 });
 
-if (process.argv[2] == "fly") client.takeoff();
-client.on('navdata', navDataInt.processNavdata);
+if (process.argv[2] == "fly") client.land();
+
+// client.on('navdata', navDataInt.processNavdata);
 
 TCPStream.connect(function () {
     TCPStream.pipe(VideoStream);
     console.log("Video Stream Active".green);
 });
 
-VideoStream.on('data', function (buffer) {    
-    console.log("Hello");
-    /*
-    var image = new Jpeg(buffer, buffer.display_width, buffer.display_height);
-    image.encode(function (png_image) {
-        fs.writeFile('message.png', png_image, function (err) {
-          if (err) throw err;
-          console.log('It\'s saved!');
-        });
-    });
-    */
-});//navDataInt.getImageData);
+VideoStream.on('data', navDataInt.getImageData);
 
 TCPStream.on('error', function(err) {
     console.error(('ERROR:' + err).red);
@@ -56,4 +47,6 @@ console.log("Flight Started:" + new Date());
 startFlightTime = new Date();
 
 
-// rl.question("Press Enter to land the drone and save your life >>", navDataInt.landingCode);
+ rl.question("Press Enter to land the drone and save your life >>", navDataInt.landingCode);
+
+
